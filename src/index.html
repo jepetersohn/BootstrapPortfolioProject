@@ -9,7 +9,7 @@
 </head>
 <body>
 
-  <nav class="navbar navbar-default">
+  <nav class="navbar navbar-inverse">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -27,6 +27,18 @@
       <ul class="nav navbar-nav">
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Volunteer work</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">All projects</a></li>
+          </ul>
+        </li>
       </ul>
     </div>
     <!-- /.navbar-collapse -->
@@ -61,7 +73,7 @@
       <div class="container">
         <div class="carousel-caption">
           <h1>What I've done</h1>
-          <p>View samples of my work <a href="">here</a></p>
+          <p>View my <a href="">projects</a></p>
         </div>
       </div>
     </div>
@@ -78,23 +90,42 @@
 <div class="marketing">
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
-        <span class="glyphicon glyphicon-check">
-        </span>
-        <h2>HTML & CSS</h2>
-          <p>Talk about why</p>
+      <div class="clearfix visible-xs-block"></div>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <div class="img-wrapper img-responsive">
+            <img src="https://c2.staticflickr.com/4/3213/3367743012_7a668400b0_b.jpg" alt="student" height="263px" style="width:100%">
+          </div>
+          <div class="caption">
+            <h3>Student Projects</h3>
+            <p>Work completed while a student</p>
+            <p><a href="#" class="btn btn-primary" role="button">See</a></p>
+          </div>
       </div>
-      <div class="col-md-4">
-        <span class="glyphicon glyphicon-check">
-        </span>
-        <h2>Ruby</h2>
-          <p>Talk about why</p>
+    </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <div class="img-wrapper">
+            <img src="https://c1.staticflickr.com/4/3485/3838719190_52d942ddca_b.jpg" alt="coder cat" style="width:100%">
+          </div>
+          <div class="caption">
+            <h3>Other Projects</h3>
+            <p>No longer a student, but always learning</p>
+            <p><a href="#" class="btn btn-primary" role="button">See</a></p>
+          </div>
+        </div>
       </div>
-      <div class="col-md-4">
-        <span class="glyphicon glyphicon-check">
-        </span>
-        <h2>Javascript</h2>
-          <p>Talk about why</p>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <div class="img-wrapper">
+            <img src="https://cdn.pixabay.com/photo/2016/05/15/18/51/heart-1394204_960_720.jpg" alt="volunteer" style="width:100%">
+          </div>
+          <div class="caption">
+            <h3>Volunteer work</h3>
+            <p>Coding for the greater good</p>
+            <p><a href="#" class="btn btn-primary" role="button">See</a></p>
+          </div>
+        </div>
       </div>
   </div>
 </div>
